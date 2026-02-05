@@ -181,8 +181,8 @@ if ((event.body.toLowerCase() == "satting karva de") || (event.body.toLowerCase(
 
    };
 
-   if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "bos")) {
-     return api.sendMessage("https://www.facebook.com/virat56889", threadID);
+   if ((event.body.toLowerCase() == "☔") || (event.body.toLowerCase() == "☔☔")) {
+     return api.sendMessage("meri chatri ke niche aja 🙄", threadID);
    };
 
    if ((event.body.toLowerCase() == "kamchor") || (event.body.toLowerCase() == "rakh de mobile")) {
@@ -320,8 +320,8 @@ if ((event.body.toLowerCase() == "himmat he") || (event.body.toLowerCase() == "b
      return api.sendMessage("Aakh mat mar teri satting pata lungi nahi to🤣 <3", threadID);
    };
 
-   if ((event.body.toLowerCase() == "soja") || (event.body.toLowerCase() == "gn")) {
-     return api.sendMessage("soja re😹", threadID);
+   if ((event.body.toLowerCase() == "😛") || (event.body.toLowerCase() == "😛😛")) {
+     return api.sendMessage("jib katu😹", threadID);
    };
 
    if ((event.body.toLowerCase() == "khana ho gya") || (event.body.toLowerCase() == "khana hua")) {
