@@ -6,7 +6,7 @@ module.exports.config = {
     name: "autosent",
     version: "12.0.0",
     hasPermssion: 0,
-    credits: "ARIF BABU",
+    credits: "VIRAT SAINI",
     description: "Auto Time Message With Date & Time",
     commandCategory: "group messenger",
     usages: "[]",
@@ -37,7 +37,7 @@ const messages = [
     { time: "7:30 PM", text: "💞•✧ Khush rehna mera promise ✧•💞" },
     { time: "8:30 PM", text: "🍛•✧ Dinner karna mat bhoolo ✧•🍛" },
     { time: "9:30 PM", text: "💖•✧ Mere cute baby ✧•💖" },
-    { time: "10:30 PM", text: "☺️•✧ Hamesha muskurate raho ✧•☺️" },
+    { time: "10:30 PM",text: "☺️•✧ Hamesha muskurate raho ✧•☺️" },
     { time: "11:30 PM", text: "🌙•✧ Khana khaya aapne? ✧•🌙" }
 ];
 
@@ -56,7 +56,7 @@ function buildMessage(time, text) {
 ${text}
 
 ━━━━━━━━━━━━━━━
-MADE BY ❤️‍🔥 SHIVAM SAINI`;
+MADE BY ❤️‍🔥 VIRAT SAINI`;
 }
 
 module.exports.onLoad = ({ api }) => {
@@ -86,4 +86,4 @@ module.exports.onLoad = ({ api }) => {
     });
 };
 
-module.exports.run = () => {};
+module.exports.run = () => {
