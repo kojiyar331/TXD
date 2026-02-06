@@ -31,7 +31,7 @@ module.exports.run = async function({ api, event }) {
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? "djt me Hoàn simp Dũng lỏ" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     const fs = require("fs");
-    return api.sendMessage("", event.threadID, () => api.sendMessage({body:`► [____B0T_3NT3R____] ◄\n\n 𝄟✮͢🦋⃟≛🇭asina🐰⃕⃝𒌋𝆺𝅥♥⃝🦋 𝐁𝐨𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐔𝐬𝐞 *𝐇𝐞𝐥𝐩 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 ⚠️\n\n 𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫\n 𝄟≛⃝👸🏻mela bacha 🐰⃕⃝𒌋𝆺𝅥♥⃝\n\n 𝐇𝐞𝐫 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐃 𝐋𝐢𝐧𝐤 ⇨⇛ https://www.facebook.com/profile.php?id=100022944679426\n\n 𝐄𝐦𝐚𝐢𝐥 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ⇩⇩⇩\n◆━━━━━━━━━━━◆\n sumitskhero628@gmail.com\n\n 𝐁𝐫𝐚𝐧𝐝𝐞𝐝 king ࿐ pagla 🔰`, attachment: fs.createReadStream(__dirname + "/cache/joinMp4/entry.mp4")} ,threadID));
+    return api.sendMessage("", event.threadID, () => api.sendMessage({body:`► [____B0T_3NT3R____] ◄\n\n 𝄟✮͢🦋⃟≛𝐓𝐀𝐇𝐀🐰⃕⃝𒌋𝆺𝅥♥⃝🦋 𝐁𝐨𝐭 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐔𝐬𝐞 *𝐇𝐞𝐥𝐩 𝐅𝐨𝐫 𝐌𝐨𝐫𝐞 ⚠️\n\n 𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫\n 𝄟≛⃝𝐓𝐀𝐇𝐀 𝐁𝐀𝐁𝐔 🐰⃕⃝𒌋𝆺𝅥♥⃝\n\n 𝐇𝐞𝐫 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐃 𝐋𝐢𝐧𝐤 ⇨⇛ https://www.facebook.com/profile.php?id=100085636015827\n\n 𝐄𝐦𝐚𝐢𝐥 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 ⇩⇩⇩\n◆━━━━━━━━━━━◆\n 🇵🇰\n\n 𝐁𝐫𝐚𝐧𝐝𝐞𝐝 king ࿐ pagla 🔰`, attachment: fs.createReadStream(__dirname + "/cache/joinMp4/entry.mp4")} ,threadID));
   }
   else {
     try {
