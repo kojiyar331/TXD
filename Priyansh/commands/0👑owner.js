@@ -17,8 +17,8 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
      react.includes("virat") || 
 react.includes("prefix")) {
 		var msg = {
-				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆 ★\n\n✦🌸===『*𝐓𝐚𝐡𝐚 𝐤𝐡𝐚𝐧★🌸✦\n\n ✦𝐅𝐞𝐜𝐞𝐛𝐨𝐨𝐤 𝐥𝐢𝐧𝐤\n 𝐌𝐞𝐫𝐞 𝐛𝐨𝐬𝐬 𝐤𝐚 𝐋𝐢𝐧𝐤😁😋 \n\n https://www.facebook.com/profile.php?id=61587052583313",
-				attachment: fs.createReadStream(__dirname + `/noprefix/owner.jpg`)
+				body: "★𝗢𝘄𝗻𝗲𝗿 + 𝗠𝗮𝗱𝗲 𝗕𝘆 ★\n\n✦🌸===『*𝐓𝐚𝐡𝐚 𝐤𝐡𝐚𝐧★🌸✦\n\n ✦𝐅𝐞𝐜𝐞𝐛𝐨𝐨𝐤 𝐥𝐢𝐧𝐤\n 𝐌𝐞𝐫𝐞 𝐛𝐨𝐬𝐬 𝐤𝐚 𝐋𝐢𝐧𝐤😁😋 \n\n ",
+				attachment: fs.createReadStream(__dirname + `/noprefix/.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("📷", event.messageID, (err) => {}, true)
