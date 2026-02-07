@@ -9,7 +9,7 @@ module.exports.config = {
     credits: "TDX",
     description: "Chat with AI (Developed by TAHA )",
     commandCategory: "ai",
-    usages: "[message]",
+    usages: "[text]",
     cooldowns: 5,
 };
 
